@@ -1,6 +1,6 @@
-Cat & Dog Image Classification using CNN
+# Cat & Dog Image Classification using CNN
 
-Project Overview
+### Project Overview
 
 This project applies Deep Learning techniques to classify images of cats and dogs using a Convolutional Neural Network (CNN).
 
@@ -11,13 +11,13 @@ A CNN model is built using TensorFlow/Keras to automatically learn visual featur
 
 The project includes image preprocessing, data augmentation, CNN model development, model training, evaluation, and prediction on new images.
 
-Project Objective
+### Project Objective
 
 The objective of this project is to develop a CNN-based image classification model that can distinguish between cats and dogs based on their visual features.
 
 The model learns important image patterns such as shapes, edges, textures, and other visual characteristics during training.
 
-Dataset
+### Dataset
 
 The project uses a Cat and Dog image dataset containing separate training and testing images.
 
@@ -42,7 +42,7 @@ data/
 
 The dataset itself is not included in this repository because image datasets can be large.
 
-Data Preprocessing
+### Data Preprocessing
 
 The following preprocessing steps were performed:
 
@@ -53,7 +53,7 @@ The following preprocessing steps were performed:
 5. Used horizontal flipping, rotation, zoom, and shear transformations to improve model generalization.
 6. Converted the images into batches for CNN training.
 
-Data Augmentation
+### Data Augmentation
 
 Data augmentation was applied to the training dataset to generate variations of the existing images.
 
@@ -84,7 +84,7 @@ The model architecture includes:
 
 The final sigmoid layer produces a probability used to classify the image as either a Cat or Dog.
 
-Model Training
+### Model Training
 
 The CNN model was trained using the prepared training dataset.
 
@@ -96,18 +96,18 @@ The model was compiled using:
 
 The model learns to minimize classification error while improving its ability to distinguish between the two classes.
 
-Model Evaluation
+### Model Evaluation
 
 The trained model was evaluated using the test dataset.
 
-Test Performance
+### Test Performance
 
 - Test Accuracy: 79.93%
 - Test Loss: 0.4420
 
 The training and validation performance were also visualized using accuracy and loss graphs to understand the learning behavior of the model.
 
-Prediction
+### Prediction
 
 The trained CNN model can be used to classify a new image.
 
@@ -142,7 +142,7 @@ The model achieved approximately 79.93% accuracy on the test dataset.
 
 The prediction results demonstrate that CNNs can be effectively used for binary image classification tasks.
 
-Technologies Used
+### Technologies Used
 
 - Python
 - TensorFlow
@@ -152,7 +152,7 @@ Technologies Used
 - PIL
 - Jupyter Notebook
 
-Project Structure
+### Project Structure
 
 cat-dog-cnn/
 │
@@ -197,7 +197,7 @@ Run the cells from top to bottom to:
 - Evaluate the model
 - Make predictions
 
-Conclusion
+### Conclusion
 
 This project demonstrates how Convolutional Neural Networks can be used for image classification.
 
@@ -205,7 +205,7 @@ The CNN learned visual patterns from cat and dog images and successfully classif
 
 With further improvements such as a deeper CNN architecture, transfer learning, a larger dataset, and hyperparameter tuning, the classification performance could potentially be improved.
 
-Future Improvements
+### Future Improvements
 
 Possible improvements include:
 
